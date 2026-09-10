@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Our Special Date ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+</head>
+
+
+<body>
+
+
+<!-- PAGE 1 -->
+
+<div class="box" id="page1">
+
+<h1>❤️ My Love ❤️</h1>
+
+<p>I have something special to ask you...</p>
+
+<h2>Will you go on a date with me? 🥰</h2>
+
+
+<button onclick="yesClick()">YES ❤️</button>
+
+<button onclick="noClick()">NO 😢</button>
+
+
+</div>
+
+
+
+<!-- PAGE 2 -->
+
+<div class="box hidden" id="page2">
+
+
+<h1>📅 Select Date</h1>
+
+
+<input type="date" id="date">
+
+
+<br>
+
+
+<button onclick="nextDate()">
+NEXT ❤️
+</button>
+
+
+</div>
+
+
+
+
+
+<!-- PAGE 3 -->
+
+
+<div class="box hidden" id="page3">
+
+
+<h1>💕 Date Planner</h1>
+
+
+<h3>Select Place</h3>
+
+
+<button onclick="cafe()">
+☕ Cafe
+</button>
+
+
+<button onclick="beach()">
+🌊 Beach
+</button>
+
+
+<button onclick="movie()">
+🎬 Movie
+</button>
+
+
+
+<div id="options"></div>
+
+
+<br>
+
+
+<button onclick="nextPlace()">
+NEXT ❤️
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- PAGE 4 -->
+
+
+<div class="box hidden" id="page4">
+
+
+<h1>❤️ Confirm Date</h1>
+
+
+<p id="details"></p>
+
+
+
+<input id="name" placeholder="Your Name">
+
+
+<input id="time" placeholder="Time (Example 7 PM)">
+
+
+
+<textarea id="message" placeholder="Write your message ❤️"></textarea>
+
+
+
+<br>
+
+
+<button onclick="sendMail()">
+
+CONFIRM ❤️
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- FINAL PAGE -->
+
+
+<div class="box hidden" id="page5">
+
+
+<h1>❤️ Your Date is Confirmed ❤️</h1>
+
+
+<p id="finalDetails"></p>
+
+
+<hr>
+
+
+<h1>❤️ Thank You My Love ❤️</h1>
+
+
+<h2>I Love You So Much 🥰</h2>
+
+
+<p>
+I can't wait for our beautiful day together ❤️
+</p>
+
+
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
